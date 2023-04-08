@@ -1,0 +1,42 @@
+:root {
+  --uv-index: 0;
+}
+
+.index-bar {
+  position: relative;
+  width: auto;
+  height: 4px;
+  margin: 10px;
+  border-radius: 30px;
+  background: linear-gradient(
+    to right,
+    #009900,
+    #00ff00,
+    yellow,
+    #ff9200,
+    #ff0900,
+    #ca2c92
+  );
+}
+
+.indicator {
+  position: absolute;
+  height: 4px;
+  width: 4px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  top: -1px;
+  left: calc((var(--uv-index) / 11) * 100%);
+  transform: translateX(-50%);
+}
+
+.info li {
+  margin: 0;
+  padding: 0;
+}
+
+.info * {
+  margin: 0;
+  padding: 0;
+}

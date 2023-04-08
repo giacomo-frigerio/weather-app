@@ -1,0 +1,64 @@
+.cities,
+.cities * {
+  padding: 0;
+  margin: 0;
+}
+
+.name * {
+  display: inline-block;
+}
+
+.name h4 {
+  margin-right: 0.7rem;
+}
+
+.cities li {
+  padding: 5px 10px;
+  background-color: #d3d3d3;
+}
+
+.cities li:first-child {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.cities li:last-child {
+  border-radius: 0px 0px 5px 5px;
+}
+
+.cities li:hover,
+.cities li:hover * {
+  background-color: #636363;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cityInfo {
+  font-size: smaller;
+}
+
+.star-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  transition: transform 0.2s ease-in-out;
+  color: #636363;
+}
+
+.star-button:hover {
+  transform: scale(1.2);
+  color: #f0984b !important;
+}
+
+.star-button-active {
+  color: #f0984b !important;
+}
+
+.star-button::before {
+  content: "\2605";
+  font-size: 1.5rem;
+}

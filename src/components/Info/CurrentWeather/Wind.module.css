@@ -1,0 +1,20 @@
+.info li {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.info p {
+  padding: 0px 5px;
+}
+
+.info * {
+  margin: 0;
+  padding: 0;
+}
+
+.addInfo {
+  font-size: smaller;
+  margin-bottom: 10px !important;
+}

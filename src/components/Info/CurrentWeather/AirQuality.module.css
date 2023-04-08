@@ -1,0 +1,42 @@
+:root {
+  --aqi-index: 0;
+}
+
+.index-bar {
+  position: relative;
+  width: auto;
+  height: 4px;
+  margin: 10px;
+  border-radius: 30px;
+  background: linear-gradient(
+    to right,
+    #00e400,
+    #ffff00,
+    #ff7e00,
+    #ff0000,
+    #ff0000,
+    #7e0023
+  );
+}
+
+.indicator {
+  position: absolute;
+  height: 4px;
+  width: 4px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  top: -1px;
+  left: calc((var(--aqi-index) / 10) * 100%);
+  transform: translateX(-50%);
+}
+
+.info li {
+  margin: 0;
+  padding: 0;
+}
+
+.info * {
+  margin: 0;
+  padding: 0;
+}

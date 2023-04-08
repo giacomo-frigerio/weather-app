@@ -1,0 +1,33 @@
+.currentLocation {
+  min-width: 20vw;
+}
+
+.currentLocation * {
+  padding: 0;
+  margin: 0;
+}
+
+.currentLocation li {
+  padding: 5px 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.currentLocation li:hover,
+.currentLocation li:hover * {
+  cursor: pointer;
+  background-color: #636363;
+  color: white;
+  border-radius: 5px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.cityInfo {
+  font-size: 8px;
+}

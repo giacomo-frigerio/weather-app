@@ -1,0 +1,33 @@
+.credit {
+  text-align: left;
+  position: relative;
+  font-size: smaller;
+  margin: 15px 5px;
+  padding-bottom: 5px;
+}
+
+.credit a {
+  color: white;
+}
+
+.container {
+  border-radius: 20px;
+  width: auto;
+  height: auto;
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  position: relative;
+  display: inline-block;
+}
+
+.title {
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

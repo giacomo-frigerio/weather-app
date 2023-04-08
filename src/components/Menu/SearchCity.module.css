@@ -1,0 +1,14 @@
+.city {
+  margin-bottom: 10px;
+}
+
+.city form {
+  padding: 0;
+  width: auto;
+}
+
+.city button {
+  padding: 0;
+  border: none;
+  text-align: left;
+}
